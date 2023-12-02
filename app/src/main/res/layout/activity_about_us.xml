@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    tools:context="com.example.AboutUs">
+
+    <TextView
+        android:id="@+id/button16"
+        android:layout_width="259dp"
+        android:layout_height="78dp"
+        android:text="About Us"
+        android:textAlignment="center"
+        android:textColor="@color/darkrose"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.019"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.042" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="364dp"
+        android:layout_height="540dp"
+        android:text="The main aim of developing this Android Application is to
+provide blood to the people who require blood and organs.
+The numbers of persons who need blood are increasing in
+massive amounts day by day. Using this system user can
+search blood groups available in the city, and he can also get
+the contact number of the donor who has the same blood group he
+needs[1]. To help people who need blood, this Android
+Application is used effectively for getting the details of
+available blood groups, and also to get the contact number of the
+donors with the same blood group and within the city. So if the
+blood group is Unavailableinthebloodbankuser canrequestthe
+donorto donatethe bloodto him/her and save someone's life"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.759" />
+
+    <Button
+        android:id="@+id/button30"
+        android:layout_width="38dp"
+        android:layout_height="33dp"
+        android:background="@drawable/baseline_arrow_back_ios_24"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.042"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.051" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="31dp"
+        android:layout_height="37dp"
+        android:background="@drawable/baseline_info_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.954"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.052" />
+</androidx.constraintlayout.widget.ConstraintLayout>

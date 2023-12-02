@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    tools:context="com.example.Donation">
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="348dp"
+        android:layout_height="67dp"
+        android:text="Organ and Blood Donation?"
+        android:textAlignment="center"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:textColor="#C64C4C"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.037" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/baseline_arrow_back_ios_24"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.044"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.036" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="346dp"
+        android:layout_height="588dp"
+        android:text="Organ transplants are among the greatest advances in modern medicine. They were pioneered in the 1960s and continue to save tens of thousands of lives every year. By becoming a donor, you agree to make your organs available to people whose organs have failed or been damaged by disease or injury.\nBy registering to become an organ donor you have the option to donate organs such as your heart, lungs, liver, kidneys, pancreas and small bowel. All of these forms of donation can greatly enhance or even save the life of someone in need.\n\n Types of Blood Donations\n   Whole Blood Donation.\n   Power Red Donation.
+\n   Platelet Donation.\n   Plasma Donation.\n   Blood Types and Components.\n   Preparing to Donate.\n\nThe four different types are: \n  living donation, \n  deceased donation, \n  tissue donation \n  pediatric donation.
+"
+        android:textSize="17dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

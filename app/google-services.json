@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "872578760730",
+    "project_id": "donets4u",
+    "storage_bucket": "donets4u.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:872578760730:android:df70df62f44351187811a3",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9LsFIcWqjl7AZLSxfWMv3jUvcwascU-I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
